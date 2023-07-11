@@ -87,7 +87,7 @@ def getxbl3(access_token):
     return xbl3token
 
 def refreshtoken(user_id, conn, c):
-    client_id = "9be57e9e-4bf2-4251-bb3c-0298d2bdda0a"
+    client_id = "" #ur client id
     scopes = ["XboxLive.signin"]
     authority = "https://login.microsoftonline.com/consumers"
 

@@ -507,7 +507,7 @@ async def queryinvites(ctx):
 
 
 #Give free invites once a day -----------------------------------------------------------------------------------------------------------------------------------
-async def schedule_daily_event():
+async def schedule_daily_event(): # Ur gonna have to restart the bot atleast every day cuz i cba making it work properly
     now = datetime.now()
     target_time = datetime.combine(datetime.now().date(), datetime.now().time().replace(hour=21, minute=15))  # Set the desired time here
     if now > target_time:

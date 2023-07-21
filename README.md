@@ -6,7 +6,7 @@ This repository is an open source copy of the Shadow Realm Inviter Discord bot. 
 - Python 3.7 or above
 - `py-cord` library
 - `msal` library
-- `sqlite3` library
+- `sqlite3` library (or do ```sudo apt install libsqlite3-dev```)
 - `aiohttp` library
 - `dotenv` library
 
